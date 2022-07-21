@@ -1,6 +1,5 @@
-
-exports.homeRoutes=(req,res)=>{
-    res.render('index',{users: "New Data"});
+exports.homeRoutes =(req,res)=>{
+    res.render('index');
 }
 
 exports.add_user=(req,res)=>{
